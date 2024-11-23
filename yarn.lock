@@ -1962,6 +1962,76 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yuuang/ffi-rs-darwin-arm64@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-darwin-arm64@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-darwin-arm64%2F-%2Fffi-rs-darwin-arm64-1.0.98.tgz"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-darwin-x64@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-darwin-x64@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-darwin-x64%2F-%2Fffi-rs-darwin-x64-1.0.98.tgz"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-linux-arm-gnueabihf@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-linux-arm-gnueabihf@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-linux-arm-gnueabihf%2F-%2Fffi-rs-linux-arm-gnueabihf-1.0.98.tgz"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-linux-arm64-gnu@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-linux-arm64-gnu@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-linux-arm64-gnu%2F-%2Fffi-rs-linux-arm64-gnu-1.0.98.tgz"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-linux-arm64-musl@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-linux-arm64-musl@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-linux-arm64-musl%2F-%2Fffi-rs-linux-arm64-musl-1.0.98.tgz"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-linux-x64-gnu@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-linux-x64-gnu@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-linux-x64-gnu%2F-%2Fffi-rs-linux-x64-gnu-1.0.98.tgz"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-linux-x64-musl@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-linux-x64-musl@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-linux-x64-musl%2F-%2Fffi-rs-linux-x64-musl-1.0.98.tgz"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-win32-arm64-msvc@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-win32-arm64-msvc@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-win32-arm64-msvc%2F-%2Fffi-rs-win32-arm64-msvc-1.0.98.tgz"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-win32-ia32-msvc@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-win32-ia32-msvc@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-win32-ia32-msvc%2F-%2Fffi-rs-win32-ia32-msvc-1.0.98.tgz"
+  conditions: os=win32 & (cpu=x64 | cpu=ia32)
+  languageName: node
+  linkType: hard
+
+"@yuuang/ffi-rs-win32-x64-msvc@npm:1.0.98":
+  version: 1.0.98
+  resolution: "@yuuang/ffi-rs-win32-x64-msvc@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40yuuang%2Fffi-rs-win32-x64-msvc%2F-%2Fffi-rs-win32-x64-msvc-1.0.98.tgz"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "JSONStream@npm:^1.3.5":
   version: 1.3.5
   resolution: "JSONStream@npm:1.3.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2FJSONStream%2F-%2FJSONStream-1.3.5.tgz"
@@ -3109,18 +3179,6 @@ __metadata:
   bin:
     ejs: bin/cli.js
   checksum: 10c0/52eade9e68416ed04f7f92c492183340582a36482836b11eab97b159fcdcfdedc62233a1bf0bf5e5e1851c501f2dca0e2e9afd111db2599e4e7f53ee29429ae1
-  languageName: node
-  linkType: hard
-
-"electron-as-wallpaper@npm:1.0.3":
-  version: 1.0.3
-  resolution: "electron-as-wallpaper@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Felectron-as-wallpaper%2F-%2Felectron-as-wallpaper-1.0.3.tgz"
-  dependencies:
-    bindings: "npm:^1.5.0"
-    node-addon-api: "npm:^7.0.0"
-    node-api-headers: "npm:^1.0.1"
-    node-gyp: "npm:latest"
-  checksum: 10c0/61f324e926a0a48b5c304741a1137ffd3d521288b84ff4c1051fb22bebd5f5d86b228f9b3ab7293a13d334ba11a0120abcab25ea41263de91cf3ddbfa409d330
   languageName: node
   linkType: hard
 
@@ -5257,15 +5315,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "node-addon-api@npm:7.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-addon-api%2F-%2Fnode-addon-api-7.1.0.tgz"
-  dependencies:
-    node-gyp: "npm:latest"
-  checksum: 10c0/2e096ab079e3c46d33b0e252386e9c239c352f7cc6d75363d9a3c00bdff34c1a5da170da861917512843f213c32d024ced9dc9552b968029786480d18727ec66
-  languageName: node
-  linkType: hard
-
 "node-addon-api@npm:^8.0.0":
   version: 8.0.0
   resolution: "node-addon-api@npm:8.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-addon-api%2F-%2Fnode-addon-api-8.0.0.tgz"
@@ -5275,10 +5324,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-api-headers@npm:^1.0.1, node-api-headers@npm:^1.1.0":
+"node-api-headers@npm:^1.1.0":
   version: 1.1.0
   resolution: "node-api-headers@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-api-headers%2F-%2Fnode-api-headers-1.1.0.tgz"
   checksum: 10c0/7806d71077348ea199034e8c90a9147038d37fcccc1b85717e48c095fe31783a4f909f5daced4506e6cbce93fba91220bb3fc8626ee0640d26de9860f6500174
+  languageName: node
+  linkType: hard
+
+"node-ffi-rs@npm:^1.0.97":
+  version: 1.0.98
+  resolution: "node-ffi-rs@npm:1.0.98::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-ffi-rs%2F-%2Fnode-ffi-rs-1.0.98.tgz"
+  dependencies:
+    "@yuuang/ffi-rs-darwin-arm64": "npm:1.0.98"
+    "@yuuang/ffi-rs-darwin-x64": "npm:1.0.98"
+    "@yuuang/ffi-rs-linux-arm-gnueabihf": "npm:1.0.98"
+    "@yuuang/ffi-rs-linux-arm64-gnu": "npm:1.0.98"
+    "@yuuang/ffi-rs-linux-arm64-musl": "npm:1.0.98"
+    "@yuuang/ffi-rs-linux-x64-gnu": "npm:1.0.98"
+    "@yuuang/ffi-rs-linux-x64-musl": "npm:1.0.98"
+    "@yuuang/ffi-rs-win32-arm64-msvc": "npm:1.0.98"
+    "@yuuang/ffi-rs-win32-ia32-msvc": "npm:1.0.98"
+    "@yuuang/ffi-rs-win32-x64-msvc": "npm:1.0.98"
+  dependenciesMeta:
+    "@yuuang/ffi-rs-darwin-arm64":
+      optional: true
+    "@yuuang/ffi-rs-darwin-x64":
+      optional: true
+    "@yuuang/ffi-rs-linux-arm-gnueabihf":
+      optional: true
+    "@yuuang/ffi-rs-linux-arm64-gnu":
+      optional: true
+    "@yuuang/ffi-rs-linux-arm64-musl":
+      optional: true
+    "@yuuang/ffi-rs-linux-x64-gnu":
+      optional: true
+    "@yuuang/ffi-rs-linux-x64-musl":
+      optional: true
+    "@yuuang/ffi-rs-win32-arm64-msvc":
+      optional: true
+    "@yuuang/ffi-rs-win32-ia32-msvc":
+      optional: true
+    "@yuuang/ffi-rs-win32-x64-msvc":
+      optional: true
+  checksum: 10c0/c13a9f9ec99521b2fe6332fa490c125d0ac2485aa31be3cfa23d48e59672cbda3c5e7696b0319d97133ad06dcd7d333f5568acfb9e062ea8277cba14ec063d06
   languageName: node
   linkType: hard
 
@@ -7571,7 +7659,6 @@ __metadata:
     axios: "npm:^1.6.8"
     dayjs: "npm:^1.11.10"
     electron: "npm:^30.0.0"
-    electron-as-wallpaper: "npm:1.0.3"
     electron-builder: "npm:^24.6.3"
     electron-devtools-installer: "npm:^3.2.0"
     electron-updater: "npm:^6.1.1"
@@ -7583,6 +7670,7 @@ __metadata:
     lowdb: "npm:^6.1.1"
     mime: "npm:^4.0.1"
     mitt: "npm:^3.0.1"
+    node-ffi-rs: "npm:^1.0.97"
     node-schedule: "npm:^2.1.1"
     postcss: "npm:^8.4.31"
     postcss-import: "npm:^16.1.0"

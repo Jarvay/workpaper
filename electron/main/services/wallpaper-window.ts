@@ -19,6 +19,7 @@ import {
   StaticWallpaperEventArg,
   WebpageEventArg,
 } from '../../../cross/interface';
+import { attach, detach, refresh } from './win32';
 
 type WallpaperWinType = WallpaperType | 'Marquee' | 'Webpage';
 
@@ -306,8 +307,7 @@ export class WallpaperWindowService {
   detachWallpaperWin() {
     this.windowsMap.forEach((win) => {
       if (platform() === 'win32') {
-        const { detach } = require('electron-as-wallpaper');
-        detach(win);
+        detach(win.getNativeWindowHandle().readUInt32LE());
       }
       win.hide();
     });
@@ -319,7 +319,6 @@ export class WallpaperWindowService {
       win.close();
       win.destroy();
       if (platform() === 'win32') {
-        const { refresh } = require('electron-as-wallpaper');
         refresh();
       }
     });
@@ -351,8 +350,7 @@ export class WallpaperWindowService {
       if (platform() === 'win32') {
         if (!DEBUG || app.isPackaged) {
           win.maximize();
-          const { attach } = require('electron-as-wallpaper');
-          attach(win);
+          attach(win.getNativeWindowHandle().readUInt32LE());
         }
       }
       if (platform() === 'linux') {
