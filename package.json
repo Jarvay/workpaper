@@ -1,6 +1,6 @@
 {
   "name": "workpaper",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A wallpaper schedule",
   "author": {
     "name": "Jarvay",
@@ -29,7 +29,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "electron-as-wallpaper": "1.0.3",
+    "electron-as-wallpaper": "2.0.3",
     "electron-updater": "^6.1.1",
     "react-fast-marquee": "^1.6.4",
     "wallpaper": "^7.2.1"

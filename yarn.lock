@@ -2547,6 +2547,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cargo-cp-artifact@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "cargo-cp-artifact@npm:0.1.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcargo-cp-artifact%2F-%2Fcargo-cp-artifact-0.1.9.tgz"
+  bin:
+    cargo-cp-artifact: bin/cargo-cp-artifact.js
+  checksum: 10c0/60eb1845917cfb021920fcf600a72379890b385396f9c69107face3b16b347960b66cd3d82cc169c6ac8b1212cf0706584125bc36fbc08353b033310c17ca0a6
+  languageName: node
+  linkType: hard
+
 "chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fchalk%2F-%2Fchalk-2.4.2.tgz"
@@ -3112,15 +3121,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-as-wallpaper@npm:1.0.3":
-  version: 1.0.3
-  resolution: "electron-as-wallpaper@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Felectron-as-wallpaper%2F-%2Felectron-as-wallpaper-1.0.3.tgz"
+"electron-as-wallpaper@npm:2.0.3":
+  version: 2.0.3
+  resolution: "electron-as-wallpaper@npm:2.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Felectron-as-wallpaper%2F-%2Felectron-as-wallpaper-2.0.3.tgz"
   dependencies:
     bindings: "npm:^1.5.0"
-    node-addon-api: "npm:^7.0.0"
-    node-api-headers: "npm:^1.0.1"
-    node-gyp: "npm:latest"
-  checksum: 10c0/61f324e926a0a48b5c304741a1137ffd3d521288b84ff4c1051fb22bebd5f5d86b228f9b3ab7293a13d334ba11a0120abcab25ea41263de91cf3ddbfa409d330
+    cargo-cp-artifact: "npm:^0.1.9"
+  checksum: 10c0/c7da3c21b7cb1dacbf55f7013e3ec7fbe75f30eff327f87fd9ac23789a71231a36d50a1c50383e2f699d339e0d8242fa451a826925f02468dd69c509d7bb6bbb
   languageName: node
   linkType: hard
 
@@ -5257,15 +5264,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "node-addon-api@npm:7.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-addon-api%2F-%2Fnode-addon-api-7.1.0.tgz"
-  dependencies:
-    node-gyp: "npm:latest"
-  checksum: 10c0/2e096ab079e3c46d33b0e252386e9c239c352f7cc6d75363d9a3c00bdff34c1a5da170da861917512843f213c32d024ced9dc9552b968029786480d18727ec66
-  languageName: node
-  linkType: hard
-
 "node-addon-api@npm:^8.0.0":
   version: 8.0.0
   resolution: "node-addon-api@npm:8.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-addon-api%2F-%2Fnode-addon-api-8.0.0.tgz"
@@ -5275,7 +5273,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-api-headers@npm:^1.0.1, node-api-headers@npm:^1.1.0":
+"node-api-headers@npm:^1.1.0":
   version: 1.1.0
   resolution: "node-api-headers@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnode-api-headers%2F-%2Fnode-api-headers-1.1.0.tgz"
   checksum: 10c0/7806d71077348ea199034e8c90a9147038d37fcccc1b85717e48c095fe31783a4f909f5daced4506e6cbce93fba91220bb3fc8626ee0640d26de9860f6500174
@@ -7571,7 +7569,7 @@ __metadata:
     axios: "npm:^1.6.8"
     dayjs: "npm:^1.11.10"
     electron: "npm:^30.0.0"
-    electron-as-wallpaper: "npm:1.0.3"
+    electron-as-wallpaper: "npm:2.0.3"
     electron-builder: "npm:^24.6.3"
     electron-devtools-installer: "npm:^3.2.0"
     electron-updater: "npm:^6.1.1"
